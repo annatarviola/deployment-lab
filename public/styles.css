@@ -1,0 +1,70 @@
+.container {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center;
+  font-size: larger;
+}
+
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.red {
+  color: #ff0000;
+}
+.green {
+  color: green;
+}
+.blue {
+  color: blue;
+}
+.yellow {
+  color: rgb(255, 213, 0);
+}
+.lightgray {
+  color: lightslategray;
+}
+.largerfont {
+  font-size: 130%;
+}
+.smallerfont {
+  font-size: 75%;
+}
+
+#scamman {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#overlay {
+    position: fixed; 
+    display: none; 
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(184, 184, 184);
+    opacity: 75%; 
+  }
+
+  #alert {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8.3vw;
+    font-weight: bolder;
+    white-space: nowrap;
+    position: fixed;
+    top: 250px;
+    left: -110px;
+    text-align: center;
+    color: rgb(219, 0, 0);
+    transform: rotate(28deg);
+  }
