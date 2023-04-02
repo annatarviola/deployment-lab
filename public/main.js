@@ -3,6 +3,7 @@ const overlay = document.getElementById("overlay")
 
 btn.addEventListener("click", e => {
     e.preventDefault()
+
     overlay.style.display = "block";
 
     const scamMan = document.createElement("img")
